@@ -18,10 +18,12 @@ public class StarbucksCustomerManager extends BasedCustomerManager {
 
     @Override
     public void save(Customer customer) {
-        if (_customerCheckService.ChechifRealPerson(customer));
-        save(customer);
-        {
-        }
+        if (_customerCheckService.ChechifRealPerson(customer)) {
+            super.Save(customer);
+        } else {
+            System.out.println("not a valid person ");
 
         }
+
     }
+}

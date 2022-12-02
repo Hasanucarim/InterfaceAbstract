@@ -9,8 +9,6 @@ public class Customer {
         DateOfBirth = dateOfBirth;
         NationalId = nationalId;
 
-
-
     }
 
     public String FirstName;
