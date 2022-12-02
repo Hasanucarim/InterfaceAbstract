@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="InterfaceAbstractDem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/InterfaceAbstractDem_jar</output-path>
+    <root id="archive" name="InterfaceAbstractDem.jar">
+      <element id="module-output" name="InterfaceAbstractDem" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/log4j/log4j/1.2.12/log4j-1.2.12.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
