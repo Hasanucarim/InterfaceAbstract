@@ -1,26 +1,22 @@
 package org.example.Entities;
 
+import java.time.LocalDate;
+
 public class Customer {
-    public String name;
+    public Customer(String firstName, String lastName, LocalDate dateOfBirth, String nationalId) {
+        FirstName = firstName;
+        LastName = lastName;
+        DateOfBirth = dateOfBirth;
+        NationalId = nationalId;
 
-    public void setName(String value) {
-        this.name = value;
+
+
     }
 
-    public String getName() {
-        return this.name;
-
-    }
-
-
-    public void setDateOfBirth(int newDob) {
-        int dob = newDob;
-    }
-
-    public int getDateOfBirth(int i) {
-        int dob = 0;
-        return dob;
-    }
+    public String FirstName;
+    public String LastName;
+    public LocalDate DateOfBirth;
+    public String NationalId;
 }
     
 

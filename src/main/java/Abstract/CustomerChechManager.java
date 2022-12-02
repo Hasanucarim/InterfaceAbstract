@@ -1,4 +1,4 @@
-package org.example.Concrete;
+package Abstract;
 
 import Abstract.ICustomerCheckService;
 import Abstract.ICustomerService;

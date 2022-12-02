@@ -1,8 +1,8 @@
 package org.example.Concrete;
 
 import Abstract.BasedCustomerManager;
+import Abstract.CustomerChechManager;
 import Abstract.ICustomerCheckService;
-import jdk.jshell.spi.ExecutionControl;
 import org.example.Entities.Customer;
 
 public class StarbucksCustomerManager extends BasedCustomerManager {
@@ -18,7 +18,6 @@ public class StarbucksCustomerManager extends BasedCustomerManager {
 
     @Override
     public void save(Customer customer) {
-        super.save(customer);
         if (_customerCheckService.ChechifRealPerson(customer));
         save(customer);
         {
